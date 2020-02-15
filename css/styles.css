@@ -1,0 +1,98 @@
+:root {
+  --red: #8c1c13;
+  --dark-red: #650700;
+  --pink: #bf4342;
+  --white: #e7d7c1;
+  --black: #393e41;
+  --gray: #d3d0cb;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--pink);
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 72rem;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  padding: 3.2rem 0;
+  margin-bottom: 2.4rem;
+}
+
+.title {
+  font-size: 7.2rem;
+  line-height: 9.6rem;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 3px 3px 0 var(--red);
+}
+
+.love-input {
+  margin-bottom: 3.2rem;
+}
+
+.love-form>* {
+  display: block;
+  font-size: 1.8rem;
+}
+
+.text-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: .8rem;
+}
+
+.text-input {
+  width: 100%;
+  margin-bottom: 1.6rem;
+  padding: .8rem;
+}
+
+.button {
+  border: none;
+  color: var(--white);
+  background-color: var(--red);
+  text-transform: uppercase;
+  padding: 1.2rem;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--dark-red);
+}
+
+.results {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.8rem;
+}
+
+#results-icon > * {
+  height: 60px;
+  width: 60px;
+}
+
+#results-text {
+  display: block;
+}
