@@ -2,7 +2,7 @@
 
 These are the project files for a simple holiday card that you can share with friends and family. The design is very simple, so we'll be adding some animations to make things more interesting.
 
-Check out a preview of what we'll be making here: [HWI Holiday Card](https://hwi-february-20.netlify.com/). Note that this page has not been optimized for mobile, so we recommend viewing it on a larger screen.
+Check out a preview of what we'll be making here: [HWI Love Calculator](https://hwi-february-20.netlify.com/). Note that this page has not been optimized for mobile, so we recommend viewing it on a larger screen.
 
 ## Getting started
 
